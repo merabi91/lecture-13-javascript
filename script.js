@@ -10,6 +10,24 @@
 //     alert ("დაბალი ხელფასი")
 // }
 
-var arr = [1,4,18,24,15,2,3,19,55];
 
-console.log(arr.reverse);
+// var arr = [1,4,18,24,15,2,3,19,55];
+// for (var i=0; i < arr.length; i++)
+// if (arr[i] % 2 == 0) {
+
+// console.log(arr[i] + " " + "ლუწი რიცხვი მასივიდან")
+// } 
+// else if (arr[i] % 2 == 1) {
+// }
+// console.log(arr[i] + " " + "კენტი რიცხვი მასივიდან")
+
+
+var arr = [1,4,18,24,15,2,3,19,55];
+var max = 0;
+for (var i=0; i < arr.length; i++) {
+    if (arr[i] > max) {
+        max=arr[i];
+    }
+}
+
+console.log(max + " " + "დიდი რიცხვი მასივიდან")
