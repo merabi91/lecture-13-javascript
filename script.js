@@ -22,12 +22,22 @@
 // console.log(arr[i] + " " + "კენტი რიცხვი მასივიდან")
 
 
+// var arr = [1,4,18,24,15,2,3,19,55];
+// var max = 0;
+// for (var i=0; i < arr.length; i++) {
+//     if (arr[i] > max) {
+//         max=arr[i];
+//     }
+// }
+// console.log(max + " " + "დიდი რიცხვი მასივიდან")
+
 var arr = [1,4,18,24,15,2,3,19,55];
-var max = 0;
-for (var i=0; i < arr.length; i++) {
-    if (arr[i] > max) {
-        max=arr[i];
+var small = arr [0];
+
+for (var i=0; i<arr.length; i++){
+    if (small>arr[i]){
+        small=arr[i];
     }
 }
 
-console.log(max + " " + "დიდი რიცხვი მასივიდან")
+console.log(small);
